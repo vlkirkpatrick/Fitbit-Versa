@@ -1,0 +1,23 @@
+{
+  "fitbit": {
+    "appUUID": "20112ef6-5654-4e11-9e13-704ffeb6188b",
+    "appType": "clockface",
+    "appDisplayName": "Water Fasting Clock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity"
+    ],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Water Fasting Clock"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.0.0"
+  }
+}
